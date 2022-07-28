@@ -1,0 +1,26 @@
+#point-reward-info {
+  padding: 0 1.8rem;
+}
+.reward-info-container {
+}
+.info {
+  background-color: #fff;
+  color: #2e3e5c;
+  padding: 1.6rem;
+
+  border-bottom: 1px solid #efefef;
+}
+.info-container {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+
+  position: relative;
+  top: -0.1rem;
+}
+.info img {
+  padding: 0.8rem 0.8rem;
+}
+.info p {
+  font-size: 1.3rem;
+}

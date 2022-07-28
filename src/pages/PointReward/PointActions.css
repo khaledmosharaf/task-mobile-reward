@@ -1,0 +1,49 @@
+#point-actions {
+  padding: 0 1.8rem;
+  position: relative;
+}
+.action {
+  background-color: #fff;
+  padding: 1.8rem 1.5rem;
+  border-radius: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+
+  margin-bottom: 2rem;
+}
+.action-icon {
+  background-color: #a8a4ce;
+  padding: 1.2rem 1.5rem;
+  border-radius: 10px;
+}
+.action-text {
+  position: relative;
+  color: #2c2c2c;
+  font-size: 1.4rem;
+}
+.point-number {
+  font-size: 1.2rem;
+  color: #666;
+}
+.btn-action {
+  position: relative;
+  right: -0.5rem;
+  padding: 1.5rem 2rem;
+  font-size: 1.2rem;
+  background-color: #4c67ad;
+}
+.btn-action-text {
+  position: relative;
+  top: -0.3rem;
+}
+.action-2 .action-icon {
+  background-color: #7a86b6;
+}
+.action-3 .action-icon {
+  background-color: #c8b6e2;
+}
+.action-2 .btn-action {
+  background-color: #e0e0e0;
+  color: #4f4f4f;
+}

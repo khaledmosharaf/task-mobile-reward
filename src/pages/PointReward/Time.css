@@ -1,0 +1,10 @@
+#time {
+  display: flex;
+  justify-content: space-between;
+
+  padding: 1.6rem;
+}
+.right {
+  height: 13px;
+  align-self: center;
+}

@@ -1,0 +1,64 @@
+#point {
+  margin-top: 1rem;
+  padding: 1.8rem;
+  color: #fff;
+  font-size: 1.6rem;
+  font-family: tatsamLt;
+}
+
+.point-text {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+
+  font-family: tatsamMd;
+  font-size: 2.4rem;
+  color: #333;
+  margin-bottom: 1.6rem;
+}
+
+.point-stat-container {
+  display: flex;
+  flex-direction: column;
+
+  padding: 1.8rem;
+  border-radius: 15px;
+  background-image: linear-gradient(to bottom, #1b75bb, #205781);
+}
+.point-stat-text {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1.8rem;
+}
+.point {
+  display: flex;
+}
+.point-level {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.point-level-title {
+  font-size: 1.8rem;
+  margin-bottom: 0.7rem;
+}
+.point-progress-info {
+  font-size: 1.2rem;
+  text-align: center;
+  padding: 0 1.6rem;
+}
+.point-level-progress-bar {
+  height: 0.7rem;
+  width: 100%;
+  border-radius: 100px;
+  background-color: #fff;
+  margin-bottom: 0.7rem;
+}
+.point-sublinks {
+  margin-top: 2rem;
+  padding: 0 1rem;
+  color: #2c2c2c;
+
+  display: flex;
+  justify-content: space-between;
+}

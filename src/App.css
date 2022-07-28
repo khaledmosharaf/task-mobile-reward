@@ -1,38 +1,33 @@
+@font-face {
+  font-family: tatsamMd;
+  src: url(./asset/fonts/Tatsam\ Bengali\ Rnd\ Medium\ [TheFontsMaster.com].otf);
+}
+@font-face {
+  font-family: tatsamLt;
+  src: url(./asset/fonts/Tatsam\ Bengali\ Rnd\ Light\ [TheFontsMaster.com].otf);
+}
+
+html {
+  font-size: 10px;
+  font-family: tatsamMd, tatsamLt, Arial, sans-serif;
+}
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
 .App {
-  text-align: center;
+  width: 100vw;
+  margin: 0 auto;
+  overflow: hidden;
+  background-image: linear-gradient(to bottom, #fff, #f8f8f8);
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn {
+  background-color: #6a5ae0;
+  border: none;
+  padding: 0.5rem 1.5rem;
+  border-radius: 150px;
+  color: #fff;
+  font-size: 1.2rem;
 }

@@ -1,0 +1,30 @@
+#point-qa {
+  margin-top: 1rem;
+  padding: 0 1.8rem;
+}
+.qa {
+  background-color: #fff;
+  color: #2e3e5c;
+  padding: 0.8rem 1.6rem;
+
+  border-bottom: 1px solid #efefef;
+}
+.qa-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  position: relative;
+  top: -0.1rem;
+}
+.qa-container img {
+  padding: 0.8rem 0.8rem;
+}
+.qa-container-left {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+.qa-container-left p {
+  font-size: 1.4rem;
+}

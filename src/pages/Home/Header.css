@@ -1,0 +1,78 @@
+#header {
+  position: relative;
+}
+.ellipse-container {
+  position: absolute;
+  left: -11.25rem;
+  top: -17rem;
+  background-image: linear-gradient(to bottom, #fff, #f8f8f8);
+}
+.ellipse {
+  width: 60rem;
+  height: 36rem;
+  border-radius: 50%;
+  background-image: linear-gradient(to bottom right, #4c67ad, #8270f6);
+  position: relative;
+}
+.circle-container {
+  position: absolute;
+  top: 10rem;
+  right: 5rem;
+}
+.circle {
+  background-image: linear-gradient(to top left, #8270f6, #fff);
+  width: 20rem;
+  height: 20rem;
+  border-radius: 50%;
+  position: relative;
+  opacity: 0.09;
+}
+.inner-circle {
+  background: transparent;
+  width: 13rem;
+  height: 13rem;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-image: linear-gradient(to bottom right, #4c67ad, #8270f6);
+}
+
+.text-container {
+  width: 90vw;
+  height: 96px;
+  background: #fff;
+  position: absolute;
+  top: 28vw;
+  margin: 0 5vw;
+  border-radius: 20px;
+
+  padding: 0 1.6rem;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 33;
+}
+.stats {
+}
+.account {
+  top: 2vw;
+  padding: 0;
+  color: #fff;
+  background: rgba(0, 0, 0, 0);
+}
+.avatar {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+.avatar-name {
+  font-size: 1.6rem;
+}
+.avatar-level {
+  font-size: 1.2rem;
+}
+.btn-reward {
+}
