@@ -14,6 +14,7 @@ const Nav = () => {
         <img src={puzzle} className="nav-item" alt="" />
         <img src={bar} className="nav-item" alt="" />
       </div>
+      <div></div>
     </nav>
   );
 };
