@@ -4,8 +4,8 @@
 .ellipse-container {
   position: absolute;
   left: 50%;
-  top: 50;
-  transform: translate(-50%, -48%);
+  top: 50%;
+  transform: translate(-50%, -47%);
   background-image: linear-gradient(to bottom, #fff, #f8f8f8);
 }
 .ellipse {
