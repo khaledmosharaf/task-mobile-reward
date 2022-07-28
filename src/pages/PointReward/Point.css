@@ -57,9 +57,16 @@
 }
 .point-sublinks {
   margin-top: 2rem;
-  padding: 0 1rem;
+  padding: 0 1.5rem;
   color: #2c2c2c;
 
   display: flex;
   justify-content: space-between;
+}
+.point-sublinks > p:nth-child(1) {
+  position: relative;
+  left: -1.2rem;
+}
+.point-sublinks > p:nth-child(2) {
+  font-size: 1.4rem;
 }
