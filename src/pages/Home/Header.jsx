@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 import './Header.css';
 import trophy from '../../asset/icons/fxemoji_trophy.png';
 import avatar from '../../asset/avatar/Person.png';
-import redeem from '../../asset/icons/Redeem.png';
+// import redeem from '../../asset/icons/Redeem.png';
 import smallCup from '../../asset/icons/Icon (12).png';
 
 const Header = () => {
