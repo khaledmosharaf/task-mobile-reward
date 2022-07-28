@@ -3,6 +3,7 @@ import './Header.css';
 import trophy from '../../asset/icons/fxemoji_trophy.png';
 import avatar from '../../asset/avatar/Person.png';
 import redeem from '../../asset/icons/Redeem.png';
+import smallCup from '../../asset/icons/Icon (12).png';
 
 const Header = () => {
   return (
@@ -26,7 +27,12 @@ const Header = () => {
           </div>
         </div>
         <Link to="reward">
-          <img src={redeem} alt="reward button" />
+          <div className="btn-reward">
+            <img src={smallCup} alt="" />
+            <p>রিওয়ার্ড</p>
+          </div>
+
+          {/* <img src={redeem} alt="reward button" /> */}
         </Link>
       </div>
 

@@ -31,3 +31,6 @@ html {
   color: #fff;
   font-size: 1.2rem;
 }
+a {
+  text-decoration: none;
+}

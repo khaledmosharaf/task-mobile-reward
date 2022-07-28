@@ -36,10 +36,21 @@
 
   position: relative;
   right: -8px;
+  top: -0.8rem;
+
+  line-height: 1.4;
+}
+.banner-text-right p:nth-child(2) {
+  margin-bottom: 5px;
 }
 .btn-banner {
   position: relative;
   right: 4px;
+  padding: 0.5rem 1.8rem;
+}
+.btn-banner-text {
+  position: relative;
+  top: -0.2rem;
 }
 .dot-tab {
   position: absolute;

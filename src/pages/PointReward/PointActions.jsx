@@ -19,7 +19,7 @@ const PointActions = () => {
           <img src={award} className="action-icon" alt="" />
           <div className="action-text">
             <p>মোবাইল রিচার্জ ২০ টাকা </p>
-            <p className="point-number">১০০০ পয়েন্ট</p>
+            <p className="action-detail">১০০০ পয়েন্ট</p>
           </div>
           <button className="btn-action btn">
             <span className="btn-action-text">সংগ্রহ করুন</span>
@@ -30,7 +30,7 @@ const PointActions = () => {
           <img src={lock} className="action-icon" alt="" />
           <div className="action-text">
             <p>মোবাইল রিচার্জ ২০ টাকা </p>
-            <p className="point-number">১০০০ পয়েন্ট</p>
+            <p className="action-detail">১৫০০ পয়েন্ট</p>
           </div>
           <button
             className={`btn-action btn ${notEnoughPoint && 'btn-disable'}`}
@@ -43,11 +43,11 @@ const PointActions = () => {
         <div className="action action-3">
           <img src={play} className="action-icon" alt="" />
           <div className="action-text">
-            <p>মোবাইল রিচার্জ ২০ টাকা </p>
-            <p className="point-number">১০০০ পয়েন্ট</p>
+            <p>যেভাবে কাজ করে </p>
+            <p className="action-detail">বিস্তারিত দেখতে ক্লিক করুন</p>
           </div>
           <button className="btn-action btn">
-            <span className="btn-action-text">সংগ্রহ করুন</span>
+            <span className="btn-action-text">ভিডিও দেখুন</span>
           </button>
         </div>
       </div>

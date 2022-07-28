@@ -40,7 +40,8 @@
 }
 .point-level-title {
   font-size: 1.8rem;
-  margin-bottom: 0.7rem;
+  margin-bottom: 0.9rem;
+  font-family: arial;
 }
 .point-progress-info {
   font-size: 1.2rem;

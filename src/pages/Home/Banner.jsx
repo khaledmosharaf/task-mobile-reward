@@ -15,7 +15,10 @@ const Banner = () => {
           <div className="banner-text-right">
             <p>অর্জন করে লুফে নাও দারুন সব</p>
             <p>আকর্ষণীয় অফার</p>
-            <button className="btn btn-banner">ক্লিক কর</button>
+            <button className="btn btn-banner">
+              {' '}
+              <span className="btn-banner-text">ক্লিক কর</span>{' '}
+            </button>
           </div>
         </div>
       </div>

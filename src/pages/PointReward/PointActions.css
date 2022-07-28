@@ -22,9 +22,9 @@
   color: #2c2c2c;
   font-size: 1.4rem;
 }
-.point-number {
+.action-detail {
   font-size: 1.2rem;
-  color: #666;
+  color: #bdbdbd;
 }
 .btn-action {
   position: relative;
