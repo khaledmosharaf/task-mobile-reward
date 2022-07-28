@@ -3,14 +3,16 @@
 
   box-shadow: 0px -10px 24px rgba(15, 13, 35, 0.06);
   margin-top: 4rem;
+  position: sticky;
+  bottom: 0;
 }
 .nav-container {
   width: 100%;
-
+  padding: 2rem 3rem;
   display: flex;
+  justify-content: space-between;
 }
 .nav-item {
-  padding: 3.3rem;
-  flex-basis: 25%;
-  flex-grow: 1;
+  height: 24px;
+  width: 24px;
 }

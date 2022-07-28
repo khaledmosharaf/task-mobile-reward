@@ -12,6 +12,7 @@
 }
 .category-select-text {
   font-size: 1.8rem;
+  color: #0c092a;
 }
 .category-items-container {
   width: 86vw;
@@ -37,4 +38,7 @@
   background: #f2f7ff;
   flex-grow: 1;
   flex-basis: 25%;
+}
+.category-item p {
+  color: #636469;
 }

@@ -43,7 +43,8 @@
 .action-3 .action-icon {
   background-color: #c8b6e2;
 }
-.action-2 .btn-action {
+
+.btn-disable {
   background-color: #e0e0e0;
   color: #4f4f4f;
 }

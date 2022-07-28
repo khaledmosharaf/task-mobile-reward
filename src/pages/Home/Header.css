@@ -3,8 +3,9 @@
 }
 .ellipse-container {
   position: absolute;
-  left: -11.25rem;
-  top: -17rem;
+  left: 50%;
+  top: 50;
+  transform: translate(-50%, -48%);
   background-image: linear-gradient(to bottom, #fff, #f8f8f8);
 }
 .ellipse {
@@ -75,4 +76,12 @@
   font-size: 1.2rem;
 }
 .btn-reward {
+}
+.stat-level {
+  font-size: 1.1rem;
+  color: #666;
+}
+.reward-point {
+  font-size: 1.5rem;
+  color: #2c2c2c;
 }

@@ -4,6 +4,7 @@ const AppContext = React.createContext();
 
 const AppProvider = ({ children }) => {
   const [isPopupOpen, setIsPopupOpen] = useState(false);
+  const [notEnoughPoint, setNotEnoughPoint] = useState(false);
 
   const openPopup = () => {
     setIsPopupOpen(true);
@@ -13,7 +14,15 @@ const AppProvider = ({ children }) => {
   };
 
   return (
-    <AppContext.Provider value={{ isPopupOpen, openPopup, closePopup }}>
+    <AppContext.Provider
+      value={{
+        isPopupOpen,
+        notEnoughPoint,
+        openPopup,
+        closePopup,
+        setNotEnoughPoint,
+      }}
+    >
       {children}
     </AppContext.Provider>
   );

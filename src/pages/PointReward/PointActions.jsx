@@ -5,7 +5,13 @@ import lock from '../../asset/icons/Icon (10).png';
 import play from '../../asset/icons/Icon (11).png';
 
 const PointActions = () => {
-  const { openPopup } = useGlobalContext();
+  const { openPopup, notEnoughPoint, setNotEnoughPoint } = useGlobalContext();
+
+  const handleOpenPopup = () => {
+    openPopup();
+    setNotEnoughPoint(true);
+  };
+
   return (
     <div id="point-actions">
       <div className="actions-container">
@@ -26,7 +32,10 @@ const PointActions = () => {
             <p>মোবাইল রিচার্জ ২০ টাকা </p>
             <p className="point-number">১০০০ পয়েন্ট</p>
           </div>
-          <button className="btn-action btn" onClick={openPopup}>
+          <button
+            className={`btn-action btn ${notEnoughPoint && 'btn-disable'}`}
+            onClick={handleOpenPopup}
+          >
             <span className="btn-action-text">সংগ্রহ করুন</span>
           </button>
         </div>
